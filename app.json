@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Imade",
+    "slug": "Imade",
+    "version": "1.0.0",
+    "scheme": ["imade"],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "assets/images/IconA.png"
+    },
+    "plugins": ["expo-router", "expo-media-library", "expo-image-picker", "expo-av"],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "assets/images/Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
